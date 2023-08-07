@@ -1,0 +1,292 @@
+Wed Jul 19 02:39:32 2023  
+Wed Jul 19 02:39:32 2023  commencing relation filtering
+Wed Jul 19 02:39:32 2023  estimated available RAM is 8070.3 MB
+Wed Jul 19 02:39:32 2023  commencing duplicate removal, pass 1
+Wed Jul 19 02:40:35 2023  found 905941 hash collisions in 10145283 relations
+Wed Jul 19 02:40:53 2023  added 62542 free relations
+Wed Jul 19 02:40:53 2023  commencing duplicate removal, pass 2
+Wed Jul 19 02:41:02 2023  found 640667 duplicates and 9567158 unique relations
+Wed Jul 19 02:41:02 2023  memory use: 34.6 MB
+Wed Jul 19 02:41:02 2023  reading ideals above 100000
+Wed Jul 19 02:41:02 2023  commencing singleton removal, initial pass
+Wed Jul 19 02:42:40 2023  memory use: 344.5 MB
+Wed Jul 19 02:42:40 2023  reading all ideals from disk
+Wed Jul 19 02:42:40 2023  memory use: 341.4 MB
+Wed Jul 19 02:42:41 2023  keeping 10809627 ideals with weight <= 200, target excess is 49454
+Wed Jul 19 02:42:42 2023  commencing in-memory singleton removal
+Wed Jul 19 02:42:43 2023  begin with 9567158 relations and 10809627 unique ideals
+Wed Jul 19 02:42:51 2023  reduce to 3082245 relations and 3093511 ideals in 24 passes
+Wed Jul 19 02:42:51 2023  max relations containing the same ideal: 98
+Wed Jul 19 03:10:13 2023  
+Wed Jul 19 03:10:13 2023  commencing relation filtering
+Wed Jul 19 03:10:13 2023  estimated available RAM is 8070.3 MB
+Wed Jul 19 03:10:13 2023  commencing duplicate removal, pass 1
+Wed Jul 19 03:11:33 2023  found 1018486 hash collisions in 10887587 relations
+Wed Jul 19 03:11:52 2023  added 111 free relations
+Wed Jul 19 03:11:52 2023  commencing duplicate removal, pass 2
+Wed Jul 19 03:12:01 2023  found 718279 duplicates and 10169419 unique relations
+Wed Jul 19 03:12:01 2023  memory use: 49.3 MB
+Wed Jul 19 03:12:01 2023  reading ideals above 720000
+Wed Jul 19 03:12:02 2023  commencing singleton removal, initial pass
+Wed Jul 19 03:13:11 2023  memory use: 344.5 MB
+Wed Jul 19 03:13:11 2023  reading all ideals from disk
+Wed Jul 19 03:13:11 2023  memory use: 291.6 MB
+Wed Jul 19 03:13:11 2023  commencing in-memory singleton removal
+Wed Jul 19 03:13:12 2023  begin with 10169419 relations and 11005283 unique ideals
+Wed Jul 19 03:13:17 2023  reduce to 3910953 relations and 3650742 ideals in 20 passes
+Wed Jul 19 03:13:17 2023  max relations containing the same ideal: 77
+Wed Jul 19 03:13:18 2023  removing 573044 relations and 510099 ideals in 62945 cliques
+Wed Jul 19 03:13:19 2023  commencing in-memory singleton removal
+Wed Jul 19 03:13:19 2023  begin with 3337909 relations and 3650742 unique ideals
+Wed Jul 19 03:13:20 2023  reduce to 3265172 relations and 3066269 ideals in 9 passes
+Wed Jul 19 03:13:20 2023  max relations containing the same ideal: 68
+Wed Jul 19 03:13:21 2023  removing 425695 relations and 362750 ideals in 62945 cliques
+Wed Jul 19 03:13:22 2023  commencing in-memory singleton removal
+Wed Jul 19 03:13:22 2023  begin with 2839477 relations and 3066269 unique ideals
+Wed Jul 19 03:13:23 2023  reduce to 2790484 relations and 2653531 ideals in 9 passes
+Wed Jul 19 03:13:23 2023  max relations containing the same ideal: 58
+Wed Jul 19 03:13:24 2023  relations with 0 large ideals: 446
+Wed Jul 19 03:13:24 2023  relations with 1 large ideals: 3251
+Wed Jul 19 03:13:24 2023  relations with 2 large ideals: 40706
+Wed Jul 19 03:13:24 2023  relations with 3 large ideals: 213886
+Wed Jul 19 03:13:24 2023  relations with 4 large ideals: 571026
+Wed Jul 19 03:13:24 2023  relations with 5 large ideals: 836075
+Wed Jul 19 03:13:24 2023  relations with 6 large ideals: 696011
+Wed Jul 19 03:13:24 2023  relations with 7+ large ideals: 429083
+Wed Jul 19 03:13:24 2023  commencing 2-way merge
+Wed Jul 19 03:13:26 2023  reduce to 1579666 relation sets and 1442713 unique ideals
+Wed Jul 19 03:13:26 2023  commencing full merge
+Wed Jul 19 03:13:43 2023  memory use: 156.8 MB
+Wed Jul 19 03:13:43 2023  found 773738 cycles, need 754913
+Wed Jul 19 03:13:43 2023  weight of 754913 cycles is about 53003597 (70.21/cycle)
+Wed Jul 19 03:13:43 2023  distribution of cycle lengths:
+Wed Jul 19 03:13:43 2023  1 relations: 91711
+Wed Jul 19 03:13:43 2023  2 relations: 83952
+Wed Jul 19 03:13:43 2023  3 relations: 83669
+Wed Jul 19 03:13:43 2023  4 relations: 75548
+Wed Jul 19 03:13:43 2023  5 relations: 69038
+Wed Jul 19 03:13:43 2023  6 relations: 58960
+Wed Jul 19 03:13:43 2023  7 relations: 51532
+Wed Jul 19 03:13:43 2023  8 relations: 44748
+Wed Jul 19 03:13:43 2023  9 relations: 38805
+Wed Jul 19 03:13:43 2023  10+ relations: 156950
+Wed Jul 19 03:13:43 2023  heaviest cycle: 20 relations
+Wed Jul 19 03:13:44 2023  commencing cycle optimization
+Wed Jul 19 03:13:44 2023  start with 4585478 relations
+Wed Jul 19 03:13:51 2023  pruned 97014 relations
+Wed Jul 19 03:13:51 2023  memory use: 155.5 MB
+Wed Jul 19 03:13:51 2023  distribution of cycle lengths:
+Wed Jul 19 03:13:51 2023  1 relations: 91711
+Wed Jul 19 03:13:51 2023  2 relations: 85775
+Wed Jul 19 03:13:51 2023  3 relations: 86405
+Wed Jul 19 03:13:51 2023  4 relations: 77107
+Wed Jul 19 03:13:51 2023  5 relations: 70509
+Wed Jul 19 03:13:51 2023  6 relations: 59551
+Wed Jul 19 03:13:51 2023  7 relations: 51909
+Wed Jul 19 03:13:51 2023  8 relations: 44656
+Wed Jul 19 03:13:51 2023  9 relations: 38518
+Wed Jul 19 03:13:51 2023  10+ relations: 148772
+Wed Jul 19 03:13:51 2023  heaviest cycle: 20 relations
+Wed Jul 19 03:13:51 2023  RelProcTime: 218
+Wed Jul 19 03:13:51 2023  
+Wed Jul 19 03:13:51 2023  commencing linear algebra
+Wed Jul 19 03:13:52 2023  read 754913 cycles
+Wed Jul 19 03:13:53 2023  cycles contain 2633418 unique relations
+Wed Jul 19 03:14:07 2023  read 2633418 relations
+Wed Jul 19 03:14:11 2023  using 20 quadratic characters above 134217164
+Wed Jul 19 03:14:23 2023  building initial matrix
+Wed Jul 19 03:14:46 2023  memory use: 337.1 MB
+Wed Jul 19 03:14:47 2023  read 754913 cycles
+Wed Jul 19 03:14:47 2023  matrix is 754730 x 754913 (229.4 MB) with weight 73058022 (96.78/col)
+Wed Jul 19 03:14:47 2023  sparse part has weight 51087453 (67.67/col)
+Wed Jul 19 03:14:53 2023  filtering completed in 2 passes
+Wed Jul 19 03:14:53 2023  matrix is 751845 x 752028 (229.1 MB) with weight 72920427 (96.97/col)
+Wed Jul 19 03:14:53 2023  sparse part has weight 51040244 (67.87/col)
+Wed Jul 19 03:14:54 2023  matrix starts at (0, 0)
+Wed Jul 19 03:14:55 2023  matrix is 751845 x 752028 (229.1 MB) with weight 72920427 (96.97/col)
+Wed Jul 19 03:14:55 2023  sparse part has weight 51040244 (67.87/col)
+Wed Jul 19 03:14:55 2023  saving the first 48 matrix rows for later
+Wed Jul 19 03:14:55 2023  matrix includes 64 packed rows
+Wed Jul 19 03:14:55 2023  matrix is 751797 x 752028 (219.7 MB) with weight 57993236 (77.12/col)
+Wed Jul 19 03:14:55 2023  sparse part has weight 50079933 (66.59/col)
+Wed Jul 19 03:14:55 2023  using block size 65536 for processor cache size 6144 kB
+Wed Jul 19 03:15:00 2023  commencing Lanczos iteration (8 threads)
+Wed Jul 19 03:15:00 2023  memory use: 210.9 MB
+Wed Jul 19 03:15:06 2023  linear algebra at 0.4%, ETA 0h24m
+Wed Jul 19 03:38:25 2023  lanczos halted after 11890 iterations (dim = 751794)
+Wed Jul 19 03:38:26 2023  recovered 28 nontrivial dependencies
+Wed Jul 19 03:38:26 2023  BLanczosTime: 1475
+Wed Jul 19 03:38:26 2023  
+Wed Jul 19 03:38:26 2023  commencing square root phase
+Wed Jul 19 03:38:26 2023  reading relations for dependency 1
+Wed Jul 19 03:38:26 2023  read 376168 cycles
+Wed Jul 19 03:38:27 2023  cycles contain 1315640 unique relations
+Wed Jul 19 03:38:35 2023  read 1315640 relations
+Wed Jul 19 03:38:39 2023  multiplying 1315640 relations
+Wed Jul 19 03:39:24 2023  multiply complete, coefficients have about 56.35 million bits
+Wed Jul 19 03:39:25 2023  initial square root is modulo 123249517
+Wed Jul 19 03:40:22 2023  Newton iteration failed to converge
+Wed Jul 19 03:40:22 2023  algebraic square root failed
+Wed Jul 19 03:40:22 2023  reading relations for dependency 2
+Wed Jul 19 03:40:22 2023  read 375832 cycles
+Wed Jul 19 03:40:22 2023  cycles contain 1316268 unique relations
+Wed Jul 19 03:40:30 2023  read 1316268 relations
+Wed Jul 19 03:40:34 2023  multiplying 1316268 relations
+Wed Jul 19 03:41:20 2023  multiply complete, coefficients have about 56.38 million bits
+Wed Jul 19 03:41:20 2023  initial square root is modulo 124366943
+Wed Jul 19 03:42:18 2023  GCD is N, no factor found
+Wed Jul 19 03:42:18 2023  reading relations for dependency 3
+Wed Jul 19 03:42:18 2023  read 375895 cycles
+Wed Jul 19 03:42:18 2023  cycles contain 1315404 unique relations
+Wed Jul 19 03:42:26 2023  read 1315404 relations
+Wed Jul 19 03:42:30 2023  multiplying 1315404 relations
+Wed Jul 19 03:43:16 2023  multiply complete, coefficients have about 56.34 million bits
+Wed Jul 19 03:43:16 2023  initial square root is modulo 122794657
+Wed Jul 19 03:44:13 2023  sqrtTime: 347
+Fri Jul 21 10:43:31 2023  
+Fri Jul 21 10:43:31 2023  commencing relation filtering
+Fri Jul 21 10:43:31 2023  estimated available RAM is 8070.3 MB
+Fri Jul 21 10:43:31 2023  commencing duplicate removal, pass 1
+Fri Jul 21 10:45:04 2023  found 1044425 hash collisions in 10176875 relations
+Fri Jul 21 10:45:28 2023  added 63124 free relations
+Fri Jul 21 10:45:28 2023  commencing duplicate removal, pass 2
+Fri Jul 21 10:45:40 2023  found 806058 duplicates and 9433941 unique relations
+Fri Jul 21 10:45:40 2023  memory use: 49.3 MB
+Fri Jul 21 10:45:40 2023  reading ideals above 100000
+Fri Jul 21 10:45:40 2023  commencing singleton removal, initial pass
+Fri Jul 21 10:48:24 2023  memory use: 344.5 MB
+Fri Jul 21 10:48:24 2023  reading all ideals from disk
+Fri Jul 21 10:48:24 2023  memory use: 346.5 MB
+Fri Jul 21 10:48:27 2023  keeping 11006820 ideals with weight <= 200, target excess is 48468
+Fri Jul 21 10:48:28 2023  commencing in-memory singleton removal
+Fri Jul 21 10:48:30 2023  begin with 9433941 relations and 11006820 unique ideals
+Fri Jul 21 10:48:49 2023  reduce to 2590728 relations and 2869203 ideals in 30 passes
+Fri Jul 21 10:48:49 2023  max relations containing the same ideal: 83
+Fri Jul 21 11:40:53 2023  
+Fri Jul 21 11:40:53 2023  commencing relation filtering
+Fri Jul 21 11:40:53 2023  estimated available RAM is 8070.3 MB
+Fri Jul 21 11:40:53 2023  commencing duplicate removal, pass 1
+Fri Jul 21 11:42:26 2023  found 1160579 hash collisions in 10869082 relations
+Fri Jul 21 11:42:50 2023  added 60 free relations
+Fri Jul 21 11:42:50 2023  commencing duplicate removal, pass 2
+Fri Jul 21 11:43:02 2023  found 894215 duplicates and 9974927 unique relations
+Fri Jul 21 11:43:02 2023  memory use: 49.3 MB
+Fri Jul 21 11:43:02 2023  reading ideals above 100000
+Fri Jul 21 11:43:02 2023  commencing singleton removal, initial pass
+Fri Jul 21 11:45:07 2023  memory use: 344.5 MB
+Fri Jul 21 11:45:07 2023  reading all ideals from disk
+Fri Jul 21 11:45:07 2023  memory use: 366.5 MB
+Fri Jul 21 11:45:09 2023  keeping 11242209 ideals with weight <= 200, target excess is 51340
+Fri Jul 21 11:45:10 2023  commencing in-memory singleton removal
+Fri Jul 21 11:45:12 2023  begin with 9974927 relations and 11242209 unique ideals
+Fri Jul 21 11:45:24 2023  reduce to 3444173 relations and 3559208 ideals in 23 passes
+Fri Jul 21 11:45:24 2023  max relations containing the same ideal: 101
+Fri Jul 21 12:34:50 2023  
+Fri Jul 21 12:34:50 2023  commencing relation filtering
+Fri Jul 21 12:34:50 2023  estimated available RAM is 8070.3 MB
+Fri Jul 21 12:34:50 2023  commencing duplicate removal, pass 1
+Fri Jul 21 12:36:43 2023  found 1276910 hash collisions in 11498118 relations
+Fri Jul 21 12:37:07 2023  added 50 free relations
+Fri Jul 21 12:37:07 2023  commencing duplicate removal, pass 2
+Fri Jul 21 12:37:22 2023  found 985650 duplicates and 10512518 unique relations
+Fri Jul 21 12:37:22 2023  memory use: 49.3 MB
+Fri Jul 21 12:37:22 2023  reading ideals above 720000
+Fri Jul 21 12:37:22 2023  commencing singleton removal, initial pass
+Fri Jul 21 12:39:46 2023  memory use: 344.5 MB
+Fri Jul 21 12:39:46 2023  reading all ideals from disk
+Fri Jul 21 12:39:46 2023  memory use: 312.7 MB
+Fri Jul 21 12:39:48 2023  commencing in-memory singleton removal
+Fri Jul 21 12:39:50 2023  begin with 10512518 relations and 11397100 unique ideals
+Fri Jul 21 12:40:09 2023  reduce to 4246581 relations and 4102287 ideals in 20 passes
+Fri Jul 21 12:40:09 2023  max relations containing the same ideal: 78
+Fri Jul 21 12:40:15 2023  relations with 0 large ideals: 496
+Fri Jul 21 12:40:15 2023  relations with 1 large ideals: 2166
+Fri Jul 21 12:40:15 2023  relations with 2 large ideals: 31322
+Fri Jul 21 12:40:15 2023  relations with 3 large ideals: 191939
+Fri Jul 21 12:40:15 2023  relations with 4 large ideals: 619931
+Fri Jul 21 12:40:15 2023  relations with 5 large ideals: 1133319
+Fri Jul 21 12:40:15 2023  relations with 6 large ideals: 1211431
+Fri Jul 21 12:40:15 2023  relations with 7+ large ideals: 1055977
+Fri Jul 21 12:40:15 2023  commencing 2-way merge
+Fri Jul 21 12:40:21 2023  reduce to 2393578 relation sets and 2249868 unique ideals
+Fri Jul 21 12:40:21 2023  ignored 584 oversize relation sets
+Fri Jul 21 12:40:21 2023  commencing full merge
+Fri Jul 21 12:41:40 2023  memory use: 239.9 MB
+Fri Jul 21 12:41:41 2023  found 1138411 cycles, need 1128068
+Fri Jul 21 12:41:41 2023  weight of 1128068 cycles is about 79017098 (70.05/cycle)
+Fri Jul 21 12:41:41 2023  distribution of cycle lengths:
+Fri Jul 21 12:41:41 2023  1 relations: 160692
+Fri Jul 21 12:41:41 2023  2 relations: 144283
+Fri Jul 21 12:41:41 2023  3 relations: 137001
+Fri Jul 21 12:41:41 2023  4 relations: 117676
+Fri Jul 21 12:41:41 2023  5 relations: 100551
+Fri Jul 21 12:41:41 2023  6 relations: 82511
+Fri Jul 21 12:41:41 2023  7 relations: 70393
+Fri Jul 21 12:41:41 2023  8 relations: 57616
+Fri Jul 21 12:41:41 2023  9 relations: 46677
+Fri Jul 21 12:41:41 2023  10+ relations: 210668
+Fri Jul 21 12:41:41 2023  heaviest cycle: 26 relations
+Fri Jul 21 12:41:42 2023  commencing cycle optimization
+Fri Jul 21 12:41:46 2023  start with 6646481 relations
+Fri Jul 21 12:42:12 2023  pruned 140468 relations
+Fri Jul 21 12:42:12 2023  memory use: 226.8 MB
+Fri Jul 21 12:42:12 2023  distribution of cycle lengths:
+Fri Jul 21 12:42:12 2023  1 relations: 160692
+Fri Jul 21 12:42:12 2023  2 relations: 147672
+Fri Jul 21 12:42:12 2023  3 relations: 141499
+Fri Jul 21 12:42:12 2023  4 relations: 119706
+Fri Jul 21 12:42:12 2023  5 relations: 102029
+Fri Jul 21 12:42:12 2023  6 relations: 82880
+Fri Jul 21 12:42:12 2023  7 relations: 70118
+Fri Jul 21 12:42:12 2023  8 relations: 56837
+Fri Jul 21 12:42:12 2023  9 relations: 45854
+Fri Jul 21 12:42:12 2023  10+ relations: 200781
+Fri Jul 21 12:42:12 2023  heaviest cycle: 26 relations
+Fri Jul 21 12:42:14 2023  RelProcTime: 444
+Fri Jul 21 12:42:14 2023  
+Fri Jul 21 12:42:14 2023  commencing linear algebra
+Fri Jul 21 12:42:15 2023  read 1128068 cycles
+Fri Jul 21 12:42:19 2023  cycles contain 3876871 unique relations
+Fri Jul 21 12:43:03 2023  read 3876871 relations
+Fri Jul 21 12:43:13 2023  using 20 quadratic characters above 134216934
+Fri Jul 21 12:43:42 2023  building initial matrix
+Fri Jul 21 12:45:12 2023  memory use: 485.4 MB
+Fri Jul 21 12:45:14 2023  read 1128068 cycles
+Fri Jul 21 12:45:15 2023  matrix is 1127839 x 1128068 (338.2 MB) with weight 106057581 (94.02/col)
+Fri Jul 21 12:45:15 2023  sparse part has weight 76251085 (67.59/col)
+Fri Jul 21 12:45:39 2023  filtering completed in 3 passes
+Fri Jul 21 12:45:40 2023  matrix is 1122898 x 1123098 (337.5 MB) with weight 105767660 (94.17/col)
+Fri Jul 21 12:45:40 2023  sparse part has weight 76114310 (67.77/col)
+Fri Jul 21 12:45:46 2023  matrix starts at (0, 0)
+Fri Jul 21 12:45:46 2023  matrix is 1122898 x 1123098 (337.5 MB) with weight 105767660 (94.17/col)
+Fri Jul 21 12:45:46 2023  sparse part has weight 76114310 (67.77/col)
+Fri Jul 21 12:45:46 2023  saving the first 48 matrix rows for later
+Fri Jul 21 12:45:47 2023  matrix includes 64 packed rows
+Fri Jul 21 12:45:48 2023  matrix is 1122850 x 1123098 (326.5 MB) with weight 84236425 (75.00/col)
+Fri Jul 21 12:45:48 2023  sparse part has weight 74369987 (66.22/col)
+Fri Jul 21 12:45:48 2023  using block size 65536 for processor cache size 6144 kB
+Fri Jul 21 12:46:00 2023  commencing Lanczos iteration (8 threads)
+Fri Jul 21 12:46:00 2023  memory use: 314.7 MB
+Fri Jul 21 12:46:11 2023  linear algebra at 0.1%, ETA 2h 3m
+Fri Jul 21 12:46:16 2023  checkpointing every 490000 dimensions
+Fri Jul 21 14:32:03 2023  lanczos halted after 17758 iterations (dim = 1122849)
+Fri Jul 21 14:32:06 2023  recovered 31 nontrivial dependencies
+Fri Jul 21 14:32:06 2023  BLanczosTime: 6592
+Fri Jul 21 14:32:06 2023  
+Fri Jul 21 14:32:06 2023  commencing square root phase
+Fri Jul 21 14:32:06 2023  reading relations for dependency 1
+Fri Jul 21 14:32:06 2023  read 561033 cycles
+Fri Jul 21 14:32:08 2023  cycles contain 1934158 unique relations
+Fri Jul 21 14:32:35 2023  read 1934158 relations
+Fri Jul 21 14:32:52 2023  multiplying 1934158 relations
+Fri Jul 21 14:36:14 2023  multiply complete, coefficients have about 82.80 million bits
+Fri Jul 21 14:36:15 2023  initial square root is modulo 878279
+Fri Jul 21 14:40:08 2023  GCD is N, no factor found
+Fri Jul 21 14:40:08 2023  reading relations for dependency 2
+Fri Jul 21 14:40:09 2023  read 562267 cycles
+Fri Jul 21 14:40:11 2023  cycles contain 1938500 unique relations
+Fri Jul 21 14:40:36 2023  read 1938500 relations
+Fri Jul 21 14:40:56 2023  multiplying 1938500 relations
+Fri Jul 21 14:44:21 2023  multiply complete, coefficients have about 82.99 million bits
+Fri Jul 21 14:44:23 2023  initial square root is modulo 905291
+Fri Jul 21 14:48:19 2023  sqrtTime: 973

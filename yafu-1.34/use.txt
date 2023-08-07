@@ -1,0 +1,2 @@
+.\yafu-x64.exe "factor()"
+.\yafu-x64.exe “factor(@)” -batchfile data.txt
