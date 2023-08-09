@@ -365,7 +365,7 @@ Someone made a list of time needed for factoring:
 >170 digits --> You're mad, or you're working for the NSA!
 ```
 
-How to factor a ordinary number:
+How to factor an ordinary number:
 
 1. Try with YAFU to find small factors first (<50 digits).
 2. If YAFU finishes factoring,it's done. If YAFU sticks on a certain step for a long time (for example if a 100 digits composite factor is left not factored and has no small factor to be found with ECM) ,you should abort YAFU and try with another software to factor it. For example GGNFS or CADO-NFS.
