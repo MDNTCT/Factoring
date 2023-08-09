@@ -8,13 +8,13 @@ I will introduce some softwares for factoring and also how to use them.
 
 ## 1. Downloads
 
-You need to download all the software you need to get started.
+You need to download all the software required to get started.
 
 This is the recommended site:https://download.mersenne.ca/
 
 **Necessary programs : msieve , GGNFS , GMP-ECM , YAFU**
 
-You need to go into the msieve , GGNFS , GMP-ECM , YAFU (version 1.34 is the most stable one) folder in this website and download the latest binaries. (Also unzip them)
+You need to go inside the msieve , GGNFS , GMP-ECM , YAFU (version 1.34 is the most stable one) folder in this website and download the latest binaries. (Also unzip them)
 
 Besides , you also need to download and install Python 3 (the recommended version).
 
